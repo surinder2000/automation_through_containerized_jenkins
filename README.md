@@ -23,7 +23,7 @@ In this project i am going to use git, github, docker, jenkins inside docker to 
    
 ### 3. Let's create the jobs in the jenkins for automation
 #### Job 1: Pull the code from github repository as soon as developer commit 
-* In Source Control Management seciton put the Github repository url and branch name
+* In Source Control Management section put the Github repository url and branch name
 
 ![Git configuration](https://github.com/surinder2000/automation_through_containerized_jenkins/blob/master/job11.jpg)
 
@@ -60,7 +60,7 @@ In this project i am going to use git, github, docker, jenkins inside docker to 
 * Click on Apply and Save
 
 #### Job 4: If app is working fine merge the code from developer branch to master branch
-* In Source Control Management seciton put the Github repository url and branch name, from Additional Behaviour select Merge before build and put Name of repository as **origin**, Branch to merge to as **master** and leave the other boxes as it is
+* In Source Control Management section put the Github repository url and branch name, from Additional Behaviour select Merge before build and put Name of repository as **origin**, Branch to merge to as **master** and leave the other boxes as it is
 
 ![Git configuration](https://github.com/surinder2000/automation_through_containerized_jenkins/blob/master/job41.jpg)
 
@@ -75,7 +75,7 @@ In this project i am going to use git, github, docker, jenkins inside docker to 
 * Click on Apply and Save
 
 #### Job 5: After merging into master branch pull the code from github repository from master branch and deploy it in production environment
-*  In Source Control Management seciton put the Github repository url and branch name
+*  In Source Control Management section put the Github repository url and branch name
 
 ![Git configuration](https://github.com/surinder2000/automation_through_containerized_jenkins/blob/master/job51.jpg)
 
