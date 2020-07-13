@@ -13,9 +13,9 @@ In this project i am going to use git, github, docker, jenkins inside docker to 
       
 ### 2. Launch the jenkins container using the following command
 
-    docker container run -it --name jenkin -v jen:/root/ -p 8888:8080 jenkins:latest
+    docker container run -it --name jenkin -v jen:/var/lib/jenkins -p 8888:8080 jenkins:latest
     
-   Here **jen** is the volume, attached to the root folder of the jenkins container for keeping  the data persistant. To create the volume for docker container use the following command 
+   Here **jen** is the volume, attached to the working folder of the jenkins container for keeping  the data persistant. To create the volume for docker container use the following command 
   
     docker volume create volume_name (in my case volume_name is jen)
     
